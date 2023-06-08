@@ -1,0 +1,67 @@
+﻿using Proiect_de_an.Common.Constants;
+using Spectre.Console;
+
+namespace Proiect_de_an.CarManagement.CarWithElectricEngine;
+
+public class Tesla : Car
+{
+    public Tesla(int nrOfDoors,
+               int nrOfSeats,
+               string deliveryType) : base(nrOfDoors,
+                                           nrOfSeats,
+                                           ElectricEngineCarsPrices.Tesla,
+                                           deliveryType)
+    { }
+
+    public void AddTeslaCharacteristicsOnDisplay()
+    {
+        CharacteristicsOnDisplay.Add("Tesla Logo");
+        CharacteristicsOnDisplay.Add("Specific Tesla Animations");
+        CharacteristicsOnDisplay.Add("Specific Tesla Functionalities");
+        CharacteristicsOnDisplay.Add("Speed");
+        CharacteristicsOnDisplay.Add("Battery Level");
+        CharacteristicsOnDisplay.Add("Battery Health");
+        CharacteristicsOnDisplay.Add("Power Consumption");
+        CharacteristicsOnDisplay.Add("Regenerative Breaking");
+    }
+
+    public override void AddCharacteristicsOnDisplay()
+    {
+        AddTeslaCharacteristicsOnDisplay();
+    }
+
+    public override void BuildCar()
+    {
+        AnsiConsole.Progress()
+            .Columns(new ProgressColumn[]
+            {
+                new TaskDescriptionColumn(),
+                new ProgressBarColumn(),
+                new PercentageColumn(),
+                new SpinnerColumn()
+            })
+            .Start(ctx =>
+            {
+                var task1 = ctx.AddTask("[yellow]Procesing information[/]");
+                var task2 = ctx.AddTask("[yellow]Sending information to Tesla[/]");
+                var task3 = ctx.AddTask("[yellow]Analyzing car model options and availability[/]");
+                var task4 = ctx.AddTask("[yellow]Retrieving customization options and necesary parts for the selected car model[/]");
+                var task5 = ctx.AddTask("[yellow]Building car[/]");
+                var task6 = ctx.AddTask("[yellow]Calculating price[/]");
+                var task7 = ctx.AddTask("[yellow]Building complete[/]");
+
+                while (!ctx.IsFinished)
+                {
+                    task1.Increment(6.5);
+                    task2.Increment(5.5);
+                    task3.Increment(4.5);
+                    task4.Increment(3.5);
+                    task5.Increment(2.5);
+                    task6.Increment(1.5);
+                    task7.Increment(0.5);
+                }
+            });
+
+        OrderState.ReadyOrNotReady();
+    }
+}

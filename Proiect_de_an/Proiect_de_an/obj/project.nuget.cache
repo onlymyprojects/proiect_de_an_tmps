@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "5R3DXitE4WbIjMPgy7/Bgkx7Zk1XnlvYNCtfoJ5AGyYSAN+/QUV8Ac8novLOFiSpX+ZJxqk24Q29qQHz+GwEsQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bogda\\OneDrive\\Desktop\\myFiles\\Univer\\TMPS\\ProiectTMPS\\Proiect_de_an\\Proiect_de_an\\Proiect_de_an.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bogda\\.nuget\\packages\\spectre.console\\0.47.0\\spectre.console.0.47.0.nupkg.sha512",
+    "C:\\Users\\bogda\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}
