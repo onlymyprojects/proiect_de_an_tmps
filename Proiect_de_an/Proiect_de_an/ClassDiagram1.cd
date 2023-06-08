@@ -1,2 +1,291 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Proiect_de_an.CarInteriorManagement.CarInteriorOptions.AudioSystem" Collapsed="true">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CarInteriorManagement\CarInteriorOptions\AudioSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.CarInteriorManagement.CarInteriorOptions.ClimateControl" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CarInteriorManagement\CarInteriorOptions\ClimateControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.CarInteriorManagement.CarInteriorOptions.Coasters" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CarInteriorManagement\CarInteriorOptions\Coasters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.CarInteriorManagement.CarInteriorOptions.MassagingSeats" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CarInteriorManagement\CarInteriorOptions\MassagingSeats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.CarInteriorManagement.CarInteriorOptions.Refrigerator" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CarInteriorManagement\CarInteriorOptions\Refrigerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.CarInteriorManagement.CarInteriorOptions.WirelessCharging" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CarInteriorManagement\CarInteriorOptions\WirelessCharging.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.CarInteriorManagement.CarInteriorDecorator" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAABAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CarInteriorManagement\CarInteriorDecorator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Proiect_de_an.CarInteriorManagement.LeftHandDriveCarInterior" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CarInteriorManagement\LeftHandDriveCarInterior.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Proiect_de_an.CarInteriorManagement.RightHandDriveCarInterior" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CarInteriorManagement\RightHandDriveCarInterior.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Proiect_de_an.CarManagement.CarWithElectricEngine.CarWithElectricEngineFactory" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>CarManagement\CarWithElectricEngine\CarWithElectricEngineFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.CarManagement.CarWithElectricEngine.FordMotor" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAE=</HashCode>
+      <FileName>CarManagement\CarWithElectricEngine\FordMotor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.CarManagement.CarWithElectricEngine.GeneralMotors" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAQAAAAAE=</HashCode>
+      <FileName>CarManagement\CarWithElectricEngine\GeneralMotors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.CarManagement.CarWithElectricEngine.Tesla" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAE=</HashCode>
+      <FileName>CarManagement\CarWithElectricEngine\Tesla.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.CarManagement.CarWithElectricEngine.BMW" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAk=</HashCode>
+      <FileName>CarManagement\CarWithInternalCombustionEngine\BMW.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.CarManagement.CarWithElectricEngine.CarWithInternalCombustionEngineFactory" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>CarManagement\CarWithInternalCombustionEngine\CarWithInternalCombustionEngineFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.CarManagement.CarWithElectricEngine.Mercedes" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAEAAAAAAAAAAAE=</HashCode>
+      <FileName>CarManagement\CarWithInternalCombustionEngine\Mercedes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.CarManagement.CarWithElectricEngine.Volvo" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAIAE=</HashCode>
+      <FileName>CarManagement\CarWithInternalCombustionEngine\Volvo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.CarManagement.Car" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAIAAAAAEAAAAAACgQAEAAAAQACAAABE=</HashCode>
+      <FileName>CarManagement\Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.CarManagement.CarFactory" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>CarManagement\CarFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.Common.Constants.CarInteriorOptionsPrices" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAEAAQAAAAAAAAAAAEAAAAAAAAEAgAAAAAA=</HashCode>
+      <FileName>Common\Constants\CarInteriorOptionsPrices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.Common.Constants.CarInteriorTypesPrices" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Common\Constants\CarInteriorTypesPrices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.Common.Constants.CarPartsPrices" Collapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Constants\CarPartsPrices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.Common.Constants.DeliveryDurations" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Constants\DeliveryDurations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.Common.Constants.ElectricEngineCarsPrices" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Common\Constants\ElectricEngineCarsPrices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.Common.Constants.InternalCombustionEngineCarsPrices" Collapsed="true">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Common\Constants\InternalCombustionEngineCarsPrices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.DeliveryManagement.ExpressDeliveryStrategy" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeliveryManagement\ExpressDeliveryStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Proiect_de_an.DeliveryManagement.StandartDeliveryStrategy" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeliveryManagement\StandartDeliveryStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Proiect_de_an.OrderManagement.Order" Collapsed="true">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAABAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>OrderManagement\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proiect_de_an.OrderManagement.OrderNotReadyState" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>OrderManagement\OrderNotReadyState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Proiect_de_an.OrderManagement.OrderReadyState" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>OrderManagement\OrderReadyState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Proiect_de_an.CarInteriorManagement.ICarInterior" Collapsed="true">
+    <Position X="14.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CarInteriorManagement\ICarInterior.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Proiect_de_an.DeliveryManagement.IDeliveryStrategy" Collapsed="true">
+    <Position X="16.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeliveryManagement\IDeliveryStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Proiect_de_an.OrderManagement.IOrderState" Collapsed="true">
+    <Position X="18.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>OrderManagement\IOrderState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Proiect_de_an.Common.Enums.DeliveryTypes" Collapsed="true">
+    <Position X="14.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Enums\DeliveryTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Proiect_de_an.Common.Enums.ElectricEngineCarsCompanies" Collapsed="true">
+    <Position X="16.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAEAAAQAAAA=</HashCode>
+      <FileName>Common\Enums\ElectricEngineCarsCompanies.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Proiect_de_an.Common.Enums.EngineTypes" Collapsed="true">
+    <Position X="18.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Enums\EngineTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Proiect_de_an.Common.Enums.InteriorOptions" Collapsed="true">
+    <Position X="20" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAEAAQAAAAAAAAAAAEAAAAAAAAEAgAAAAAA=</HashCode>
+      <FileName>Common\Enums\InteriorOptions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Proiect_de_an.Common.Enums.InteriorTypes" Collapsed="true">
+    <Position X="14.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Common\Enums\InteriorTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Proiect_de_an.Common.Enums.InternalCombustionEngineCarsCompanies" Collapsed="true">
+    <Position X="16.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAQAAAABA=</HashCode>
+      <FileName>Common\Enums\InternalCombustionEngineCarsCompanies.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Proiect_de_an.Common.Enums.MenuOptions" Collapsed="true">
+    <Position X="18.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Common\Enums\MenuOptions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

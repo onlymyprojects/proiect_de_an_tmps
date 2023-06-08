@@ -18,6 +18,11 @@ var email = string.Empty;
 var phone = string.Empty;
 var address = string.Empty;
 
+var names = new List<string>();
+var emails = new List<string>();
+var phones = new List<string>();
+var addresses = new List<string>();
+
 AnsiConsole.Write(
     new FigletText("Build your own car")
         .Color(Color.Red));
@@ -101,6 +106,11 @@ while (!exit)
 
         car.DeliveryCar();
 
+        names.Add(name);
+        emails.Add(email);
+        phones.Add(phone);
+        addresses.Add(address);
+
         orderedCars.Add(car);
     }
     else if (selectedMenuOption == MenuOptions.SHOW_ORDERS.ToString())
@@ -123,10 +133,10 @@ while (!exit)
         for (int i = 0; i < orderedCars.Count; i++)
         {
             table.AddRow(new Markup((i + 1).ToString()),
-                         new Markup(name),
-                         new Markup(email),
-                         new Markup(phone),
-                         new Markup(address),
+                         new Markup(names[i]),
+                         new Markup(emails[i]),
+                         new Markup(phones[i]),
+                         new Markup(addresses[i]),
                          new Markup(orderedCars[i].NrOfDoors.ToString()),
                          new Markup(orderedCars[i].NrOfSeats.ToString()),
                          new Markup(orderedCars[i].CarInterior.Description),
